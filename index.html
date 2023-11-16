@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ln">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Voorbeelden web essential 1 WT</title>
+</head>
+<body data-x-data="{ showQR: false}">
+<h1>Extra voorbeelden Web Ess. 1 WT</h1>
+
+<hr>
+<h2>Visit website</h2>
+<p>
+    <a href="https://lesvoorbeelden-1wt-2023-2024.netlify.app/" target="_blank">https://lesvoorbeelden-1wt-2023-2024.netlify.app/</a>
+</p>
+<p id="toggleQrCode">Show/hide QR-code</p>
+<p id="qrCode" class="showHideQrCode">
+    <img src="assets/qrcode.png" alt="QR code to website"
+         title="https://lesvoorbeelden-1wt-2023-2024.netlify.app/">
+</p>
+<script>
+    // click on #showHideQr to show/hide QR-code with display class
+    document.getElementById('toggleQrCode').addEventListener('click', function () {
+        document.getElementById('qrCode').classList.toggle('showHideQrCode');
+    });
+</script>
+</body>
+</html>
