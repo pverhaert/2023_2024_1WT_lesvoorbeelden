@@ -3,6 +3,15 @@ body {
     font-size: 16px;
     line-height: 1.42857143;
 }
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px darkslategrey;
+}
+
+#content {
+    margin: 1rem;
+}
 
 #toggleQrCode {
     cursor: pointer;
@@ -11,4 +20,15 @@ body {
 
 .showHideQrCode {
     display: none;
+}
+
+.qrcode {
+    width: 200px;
+}
+
+@media (min-width: 800px) {
+    #content {
+        margin: 0 auto;
+        width: 750px;
+    }
 }

@@ -7,18 +7,35 @@
     <title>Voorbeelden web essential 1 WT</title>
 </head>
 <body data-x-data="{ showQR: false}">
-<h1>Extra voorbeelden Web Ess. 1 WT</h1>
+<div id="content">
+    <header>
+        <h1>Extra voorbeelden Web Ess. 1 WT</h1>
+        <hr>
+    </header>
 
-<hr>
-<h2>Visit website</h2>
-<p>
-    <a href="https://lesvoorbeelden-1wt-2023-2024.netlify.app/" target="_blank">https://lesvoorbeelden-1wt-2023-2024.netlify.app/</a>
-</p>
-<p id="toggleQrCode">Show/hide QR-code</p>
-<p id="qrCode" class="showHideQrCode">
-    <img src="assets/qrcode.png" alt="QR code to website"
-         title="https://lesvoorbeelden-1wt-2023-2024.netlify.app/">
-</p>
+    <main>
+
+        A&phone;B
+
+        <h2>Lesweek 2</h2>
+        <ul>
+            <li><a href="week2/index.html">Samenvatting week 2</a></li>
+            <li><a href="https://saerasoft.com/caesium" target="external">Caesium Image Compressor</a></li>
+        </ul>
+        <p id="toggleQrCode">Show/hide QR-code for website</p>
+        <p id="qrCode" class="showHideQrCode">
+            <a href="https://lesvoorbeelden-1wt-2023-2024.netlify.app/" target="external" title="Netlify hosting">
+                <img src="assets/qrcode.png" alt="QR code to website" class="qrcode"
+                     title="https://lesvoorbeelden-1wt-2023-2024.netlify.app/">
+            </a>
+        </p>
+        <footer>
+            <p>&copy; 2023 - 2023</p>
+            <p>Zie <a href="https://github.com/pverhaert/2023_2024_1WT_lesvoorbeelden" target="external">GitHub</a></p>
+            <p>Zie <a href="https://lesvoorbeelden-1wt-2023-2024.netlify.app/" target="external">Visit website</a></p>
+        </footer>
+    </main>
+</div>
 <script>
     // click on #showHideQr to show/hide QR-code with display class
     document.getElementById('toggleQrCode').addEventListener('click', function () {
