@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1;
+    background-image: url('../week4/assets/grid_1rem.svg');
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+p {
+    border: 1px solid #000;
+    width: calc(100vw - 2rem);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.container {
+    background-image: url('../assets/img1.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
+#belgianFlag {
+    margin: 1rem auto;
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    border-left: 100px solid #000;
+    border-right: 100px solid red;
+    outline: 1px solid black;
+}
+
+#wiel {
+    max-width: 400px;
+    height: auto;
+    filter: hue-rotate(20deg);
+}
+
+@media (min-width: 600px) {
+    body {
+        /*background-color: lightcyan;*/
+    }
+
+    p {
+        width: calc(600px - 2rem);
+        margin: 1rem auto;
+    }
+
+}
+
+@media (min-width: 800px) {
+    body {
+        /*background-color: lightskyblue;*/
+    }
+    p {
+        width: calc(800px - 2rem);
+    }
+}
+
+
+
