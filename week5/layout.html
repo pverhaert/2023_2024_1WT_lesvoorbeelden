@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #fdd4d4;
+        }
+        nav {
+            background-color: #eaf4ca;
+        }
+        main {
+            flex-grow: 1;
+            background-color: #caf4ef;
+        }
+        footer {
+            background-color: #cad6f4;
+            display: flex;
+            justify-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <nav>NAV</nav>
+    <main>MAIN</main>
+    <footer>
+        <span>FOOTER</span>
+        <div>center</div>
+        <span>copy ...</span>
+    </footer>
+</div>
+</body>
+</html>

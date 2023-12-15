@@ -16,6 +16,7 @@ footer {
 #toggleQrCode {
     cursor: pointer;
     font-weight: bold;
+    margin-top: 2rem;
 }
 
 .showHideQrCode {
